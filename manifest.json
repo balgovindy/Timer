@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Timer",
+    "version": "1.0",
+    "description": "Timer",
+    "icons": {
+        "128": "Images/icon128.png",
+        "64": "Images/icon64.png",
+        "32": "Images/icon32.png",
+        "16": "Images/icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "Images/icon16.png",
+        "default_popup": "HTML/popup.html"
+    },
+    "options_page": "HTML/options.html",
+    "permissions": [
+        "storage"
+    ]
+}

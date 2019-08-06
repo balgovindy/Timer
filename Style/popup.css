@@ -1,0 +1,22 @@
+
+body{
+    background: rgb(66, 135, 245);
+}
+#wrapper{
+    width: 10rem;
+    height: 9rem;
+    font-size: 6.5rem;
+    text-align: center;
+    color: white
+}
+
+#timer_container{
+text-align: center;
+margin: 0.4rem 0;
+}
+
+#timer_button{
+    text-align: center;
+    border:transparent;
+    background: yellowgreen
+}
