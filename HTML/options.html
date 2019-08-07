@@ -7,17 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/Lib/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="/Lib/bootstrap.min.css" crossorigin="anonymous">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="/Style/options.css">
+
     <!-- Jquery -->
     <script src="/Lib/jquery-3.3.1.min.js"></script>
-    
+
+    <!--Options.js-->
+    <script src="/Components/Options.js"></script>
+
     <title>Document</title>
 </head>
 
 <body>
-
+    <div class="d-flex flex-column">
+        <div class="d-flex container justify-content-center">
+            <h1 class="display-1">TIME LIMIT</h1>
+        </div>
+        <div class="d-flex justify-content-center container">
+            <div class="card" style="width: 18rem;">    
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Limit</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="limit" aria-describedby="emailHelp"
+                                    placeholder="Enter Time in Seconds">
+                            </div>
+                        </div>
+                        <button type="submit" id="ready" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
