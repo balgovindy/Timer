@@ -4,7 +4,6 @@ $(function () {
     });
 
     $('#ready').click(function () {
-        console.log($('#limit').val())
         if ($('#limit').val()) {
             chrome.storage.sync.set(
                 {
